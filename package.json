@@ -1,0 +1,33 @@
+{
+  "name": "phantom-node",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000p\u0000h\u0000a\u0000n\u0000t\u0000o\u0000m\u0000-\u0000n\u0000o\u0000d\u0000e\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "node volgin.js",
+    "dev": "nodemon volgin.js"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PhantomCT-MX/phantom-node/issues"
+  },
+  "homepage": "https://github.com/PhantomCT-MX/phantom-node#readme",
+  "devDependencies": {
+    "morgan": "^1.10.1",
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "express-handlebars": "^8.0.2",
+    "log4js": "^6.9.1",
+    "multer": "^2.0.2"
+  }
+}
